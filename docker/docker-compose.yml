@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  # CakePHP, Nginx, PHP
+  template-web:
+    container_name: template-web
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - "../doc/development/nginx:/etc/nginx/"
+      - "../doc/development/php-fpm/php-fpm.d:/etc/php-fpm.d/"
+      - "../:/export/www/docker-template-web"
+
+  # PostgreSQL
+  template-db:
+    container_name: template-db
+    build:
+      context: ./db
+      dockerfile: Dockerfile
+    ports:
+      - "5432:5432"
+    volumes:
+      - "./db/pgdata:/export/pgdata/"
