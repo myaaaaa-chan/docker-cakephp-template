@@ -3,6 +3,11 @@ FROM centos:centos7.9.2009
 # OSアップデート
 RUN yum -y update
 
+# 各種ライブラリインストール
+RUN yum install -y vim
+RUN yum install -y unzip
+RUN yum install -y less
+
 # postgresユーザ作成
 RUN useradd postgres
 
@@ -12,10 +17,6 @@ RUN yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x
 RUN yum install -y install postgresql14 postgresql14-server postgresql14-contrib postgresql14-devel
 
 # 作業ディレクトリ作成
-#RUN mkdir -p /export/pgdata-14
-#RUN chown postgres:postgres /export/pgdata-14
-#RUN chmod 700 /export/pgdata-14
-#RUN ln -s /export/pgdata-14 /export/pgdata
 RUN mkdir -p /export/pgdata/psql14
 RUN chmod 700 /export/pgdata/psql14
 RUN chown postgres:postgres /export/pgdata/psql14

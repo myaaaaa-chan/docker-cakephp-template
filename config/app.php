@@ -289,8 +289,6 @@ return [
          * in app_local.php depending on the applications needs.
          */
         'default' => [
-            'className' => Connection::class,
-            'driver' => \Cake\Database\Driver\Postgres::class,
             'persistent' => false,
             'timezone' => 'UTC',
 
@@ -333,7 +331,7 @@ return [
          */
         'test' => [
             'className' => Connection::class,
-            'driver' => Mysql::class,
+            'driver' => \Cake\Database\Driver\Postgres::class,
             'persistent' => false,
             'timezone' => 'UTC',
             //'encoding' => 'utf8mb4',
