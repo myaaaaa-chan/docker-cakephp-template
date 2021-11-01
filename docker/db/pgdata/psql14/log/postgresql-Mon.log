@@ -176,3 +176,70 @@
 2021-11-01 08:08:32.500 UTC [17] LOG:  invalid record length at 0/16DB618: wanted 24, got 0
 2021-11-01 08:08:32.500 UTC [17] LOG:  redo done at 0/16DB5E0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
 2021-11-01 08:08:32.518 UTC [15] LOG:  database system is ready to accept connections
+2021-11-01 08:47:28.251 UTC [15] LOG:  starting PostgreSQL 14.0 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2021-11-01 08:47:28.251 UTC [15] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-11-01 08:47:28.251 UTC [15] LOG:  listening on IPv6 address "::", port 5432
+2021-11-01 08:47:28.255 UTC [15] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2021-11-01 08:47:28.259 UTC [15] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-01 08:47:28.306 UTC [17] LOG:  database system was interrupted; last known up at 2021-11-01 08:13:32 UTC
+2021-11-01 08:47:29.481 UTC [18] FATAL:  the database system is starting up
+2021-11-01 08:47:29.846 UTC [17] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-01 08:47:29.859 UTC [17] LOG:  redo starts at 0/16DB718
+2021-11-01 08:47:29.859 UTC [17] LOG:  invalid record length at 0/16DB800: wanted 24, got 0
+2021-11-01 08:47:29.860 UTC [17] LOG:  redo done at 0/16DB7C8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2021-11-01 08:47:29.881 UTC [15] LOG:  database system is ready to accept connections
+2021-11-01 09:13:56.316 UTC [15] LOG:  starting PostgreSQL 14.0 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2021-11-01 09:13:56.316 UTC [15] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-11-01 09:13:56.316 UTC [15] LOG:  listening on IPv6 address "::", port 5432
+2021-11-01 09:13:56.322 UTC [15] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2021-11-01 09:13:56.328 UTC [15] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-01 09:13:56.381 UTC [17] LOG:  database system was interrupted; last known up at 2021-11-01 08:47:29 UTC
+2021-11-01 09:13:57.884 UTC [17] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-01 09:13:57.898 UTC [17] LOG:  redo starts at 0/16DB878
+2021-11-01 09:13:57.898 UTC [17] LOG:  invalid record length at 0/16DB8B0: wanted 24, got 0
+2021-11-01 09:13:57.898 UTC [17] LOG:  redo done at 0/16DB878 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2021-11-01 09:13:57.919 UTC [15] LOG:  database system is ready to accept connections
+2021-11-01 09:23:46.865 UTC [14] LOG:  starting PostgreSQL 14.0 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2021-11-01 09:23:46.865 UTC [14] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-11-01 09:23:46.865 UTC [14] LOG:  listening on IPv6 address "::", port 5432
+2021-11-01 09:23:46.870 UTC [14] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2021-11-01 09:23:46.875 UTC [14] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-01 09:23:46.924 UTC [16] LOG:  database system was interrupted; last known up at 2021-11-01 09:13:57 UTC
+2021-11-01 09:23:48.354 UTC [16] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-01 09:23:48.356 UTC [16] LOG:  redo starts at 0/16DB928
+2021-11-01 09:23:48.356 UTC [16] LOG:  invalid record length at 0/16DB960: wanted 24, got 0
+2021-11-01 09:23:48.356 UTC [16] LOG:  redo done at 0/16DB928 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2021-11-01 09:23:48.378 UTC [14] LOG:  database system is ready to accept connections
+2021-11-01 09:26:05.413 UTC [15] LOG:  starting PostgreSQL 14.0 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2021-11-01 09:26:05.413 UTC [15] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-11-01 09:26:05.413 UTC [15] LOG:  listening on IPv6 address "::", port 5432
+2021-11-01 09:26:05.417 UTC [15] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2021-11-01 09:26:05.421 UTC [15] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-01 09:26:05.466 UTC [17] LOG:  database system was interrupted; last known up at 2021-11-01 09:23:48 UTC
+2021-11-01 09:26:06.898 UTC [17] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-01 09:26:06.901 UTC [17] LOG:  redo starts at 0/16DB9D8
+2021-11-01 09:26:06.901 UTC [17] LOG:  invalid record length at 0/16DBA10: wanted 24, got 0
+2021-11-01 09:26:06.901 UTC [17] LOG:  redo done at 0/16DB9D8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2021-11-01 09:26:06.918 UTC [15] LOG:  database system is ready to accept connections
+2021-11-01 09:41:30.359 UTC [14] LOG:  starting PostgreSQL 14.0 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2021-11-01 09:41:30.359 UTC [14] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-11-01 09:41:30.359 UTC [14] LOG:  listening on IPv6 address "::", port 5432
+2021-11-01 09:41:30.363 UTC [14] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2021-11-01 09:41:30.367 UTC [14] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-01 09:41:30.417 UTC [16] LOG:  database system was interrupted; last known up at 2021-11-01 09:26:06 UTC
+2021-11-01 09:41:31.846 UTC [16] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-01 09:41:31.848 UTC [16] LOG:  redo starts at 0/16DBA88
+2021-11-01 09:41:31.848 UTC [16] LOG:  invalid record length at 0/16DBAC0: wanted 24, got 0
+2021-11-01 09:41:31.848 UTC [16] LOG:  redo done at 0/16DBA88 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2021-11-01 09:41:31.868 UTC [14] LOG:  database system is ready to accept connections
+2021-11-01 09:51:57.159 UTC [16] LOG:  starting PostgreSQL 14.0 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44), 64-bit
+2021-11-01 09:51:57.159 UTC [16] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-11-01 09:51:57.159 UTC [16] LOG:  listening on IPv6 address "::", port 5432
+2021-11-01 09:51:57.164 UTC [16] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2021-11-01 09:51:57.167 UTC [16] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-01 09:51:57.209 UTC [18] LOG:  database system was interrupted; last known up at 2021-11-01 09:41:31 UTC
+2021-11-01 09:51:58.674 UTC [18] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-01 09:51:58.686 UTC [18] LOG:  redo starts at 0/16DBB38
+2021-11-01 09:51:58.686 UTC [18] LOG:  invalid record length at 0/16DBB70: wanted 24, got 0
+2021-11-01 09:51:58.686 UTC [18] LOG:  redo done at 0/16DBB38 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2021-11-01 09:51:58.703 UTC [16] LOG:  database system is ready to accept connections
