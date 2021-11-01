@@ -28,11 +28,11 @@ RUN useradd --shell /sbin/nologin -g dev nginx
 RUN /bin/sh -c 'yum install -y nginx'
 
 # nginxログディレクトリ
-RUN mkdir -p /var/log/nginx/docker-template-web/web
-RUN mkdir -p /var/log/nginx/docker-template-web/api
-RUN mkdir -p /var/log/nginx/docker-template-web/admin
-RUN chown -R nginx:dev /var/log/nginx/docker-template-web
-RUN chmod -R 764 /var/log/nginx/docker-template-web
+RUN mkdir -p /var/log/nginx/docker-template/web
+RUN mkdir -p /var/log/nginx/docker-template/api
+RUN mkdir -p /var/log/nginx/docker-template/admin
+RUN chown -R nginx:dev /var/log/nginx/docker-template
+RUN chmod -R 764 /var/log/nginx/docker-template
 
 # php-fpm, nginx起動
-CMD ["/bin/sh", "/export/www/docker-template-web/scripts/start_libs.sh"]
+CMD ["/bin/sh", "/export/www/docker-template/docker/web/start.sh"]
